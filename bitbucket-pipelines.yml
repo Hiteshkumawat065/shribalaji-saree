@@ -1,0 +1,22 @@
+image: atlassian/default-image:latest
+
+pipelines:
+  branches:
+
+    development:
+      - step:
+          name: Sync Development to GitHub
+          script:
+            - git push https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/Hiteshkumawat065/shribalaji-saree.git development
+
+    uat:
+      - step:
+          name: Sync UAT to GitHub
+          script:
+            - git push https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/Hiteshkumawat065/shribalaji-saree.git uat
+
+    production:
+      - step:
+          name: Sync Production to GitHub
+          script:
+            - git push https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/Hiteshkumawat065/shribalaji-saree.git production
