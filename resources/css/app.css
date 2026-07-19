@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* resources/css/app.css */
+@import "admin-lte/dist/css/adminlte.min.css";
+/* अपनी custom styles यहाँ रखें */
