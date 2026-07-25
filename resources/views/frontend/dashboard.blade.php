@@ -33,7 +33,7 @@
                     <span class="text-xs tracking-[0.2em] uppercase font-medium">Festive Edit {{ date('Y') }}</span>
                 </span>
                 <h1 class="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-semibold">
-                    Drape the<span class="block italic font-accent text-gradient-luxe"> poetry of silk.</span>
+                    Drape the<span class="block font-accent text-gradient-luxe"> poetry of silk.</span>
                 </h1>
                 <p class="text-lg text-muted-fg max-w-md leading-relaxed">
                     Heritage Banarasi weaves, Kanjivaram brocades and modern designer sarees — meticulously crafted by master artisans across India.
